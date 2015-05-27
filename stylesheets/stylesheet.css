@@ -2,10 +2,10 @@ html {
   font-size: 10px;
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Founders Grotesk", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
   font-size: 1.8rem;
   color: #fff;
-  background: #43C2CE;
   background: #5d1a4e;
   margin: 0;
   padding: 0;
@@ -16,24 +16,27 @@ h1 {
   top: 48%;
   left: 50%;
   margin-right: -50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   color: white;
+  font-size: 36px;
   font-size: 3.6rem;
 }
 
 .H {
+  font-size: 200px;
   font-size: 20rem;
+  margin-left: -11px;
   margin-left: -1.1rem;
 }
 h1 div {
   display: inline-block;
 }
 h1 div + div {
+  margin-left: -10px;
   margin-left: -1rem;
 }
 h1 div > span {
   display: block;
-}
-.is-for {
-  font-weight: 200;
 }
